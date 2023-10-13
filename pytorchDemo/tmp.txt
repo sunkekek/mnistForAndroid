@@ -1,0 +1,23 @@
+unity写的游戏，在as平台里面可以直接调用吗?
+
+是的，Unity可以生成Android Studio项目，然后你可以在Android Studio中进行进一步的开发和调试。
+这样可以更好地与原生Android开发进行集成，例如添加更多的Android特性、调用其他Android库等。
+你可以按照以下步骤将Unity项目导入到Android Studio中：
+
+在Unity编辑器中，选择File -> Build Settings。
+
+在Build Settings窗口中，选择Android平台，并点击Switch Platform按钮。
+
+在Unity编辑器中选择Player Settings，然后配置你的Android应用程序设置，如应用程序名称、包名、图标等。
+
+点击Build按钮，选择一个目标文件夹来保存生成的Android项目文件。
+
+Unity会自动导出一个包含所有必需资源和库的Android Studio项目。
+
+打开Android Studio，选择Open an Existing Project，然后选择刚才导出的Unity生成的Android项目文件夹。
+
+等待Android Studio加载项目，然后你可以在Android Studio中进行进一步的开发和调试。
+
+
+注意：在将Unity项目导入到Android Studio之前，确保已经安装了Unity和Android Studio，
+并且已经正确配置了Android开发环境。
